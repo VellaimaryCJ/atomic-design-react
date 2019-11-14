@@ -28,6 +28,6 @@ Now you can open [http://localhost:8080](http://localhost:3000) in browser and s
 
 
 
-## License
+## License [ Public Repo ]
 
-MIT © [Vellaimary](https://github.com/VellaimaryCJ/atomic-design-react)
+© [Vellaimary](https://github.com/VellaimaryCJ/atomic-design-react)
