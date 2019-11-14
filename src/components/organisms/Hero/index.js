@@ -82,42 +82,34 @@ const Hero = (props) => {
     <Wrapper opaque reverse {...props}>
       <InnerWrapper>
         <Section>
-          <LogoImage height={265} />
+          <LogoImage height={60} />
           <ButtonGroup>
-            <Tooltip reverse data-title="Just a fancy tooltip 😄">
-              <IconButton icon="github" href="https://github.com/diegohaz/arc">GitHub</IconButton>
+            <Tooltip reverse data-title="Contact Spritle !!! 😄">
+              <IconButton icon="location" href="https://www.spritle.com/contact">Contact</IconButton>
             </Tooltip>
-            <Tooltip reverse data-title="Another tooltip aligned differently" align="end" position="bottom">
-              <IconButton icon="docs" href="https://github.com/diegohaz/arc/wiki">Docs</IconButton>
+            <Tooltip reverse data-title="Read Blog !!!" align="end" position="bottom">
+              <IconButton icon="docs" href="https://www.spritle.com/blogs/">Blog</IconButton>
             </Tooltip>
           </ButtonGroup>
         </Section>
         <Section>
           <Text>
-            <strong>ARc</strong>
-            {' '}
-is a
-            <IconLink reverse icon="react" href="https://facebook.github.io/react/">React</IconLink>
-            {' '}
-starter kit based on the
-            <IconLink reverse icon="atomic-design" href="http://bradfrost.com/blog/post/atomic-web-design/">Atomic Design</IconLink>
-            {' '}
-methodology. It&apos;s
-            <strong>progressive</strong>
-, which means that you can start with the basic boilerplate and try the other features when you are comfortable.
-          </Text>
+            <strong>About us</strong>
+            Spritle is a team of talented people ready to care about your product. We love coding. We love beautiful design. We love doing our job better than possible. Every product we craft is a challenge we are excited about.
+            Software is created for people, and so our mission is to provide an ambience by which every person involved in creating such software be valued. Be it stakeholders, product owners, the end users or the development team, they are need a professional and friendly collaborations to build great software. We at Spritle try to provide that ambience.
+            </Text>
           <Instructions>
-            <Heading level={2} reverse>Install</Heading>
+            <Heading level={2} reverse>career</Heading>
             <PreformattedText block reverse wrapped>
-              git clone -b master https://github.com/diegohaz/arc my-app
+              Full Stack Develoers, Frontend Develoers, Software Tester, React Native Develoers - iOS/Android Platform
             </PreformattedText>
             <IconLink
-              icon="docs"
+              icon = "heart"
               right
               reverse
-              href="https://github.com/diegohaz/arc/wiki/Setup"
+              href="https://www.spritle.com/career"
             >
-              Learn more
+              Apply
             </IconLink>
           </Instructions>
         </Section>

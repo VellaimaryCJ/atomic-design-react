@@ -1,6 +1,6 @@
 import React from 'react'
 
-import logo from './logo.svg'
+import logo from './spritle_logo.png'
 
 const LogoImage = props => <img alt="Logo" {...props} src={logo} />
 
